@@ -41,7 +41,7 @@ const Savings = () => {
 
           <article class="flex max-w-sm flex-col items-start mr-5">
             <div
-              className="border rounded-xl bg-green-200"
+              className="border rounded-xl bg-red-200"
               style={{
                 height: "200px",
                 width: "200px",
@@ -62,7 +62,7 @@ const Savings = () => {
 
           <article class="flex max-w-sm flex-col items-start mr-5">
             <div
-              className="border rounded-xl bg-green-200"
+              className="border rounded-xl bg-violet-200"
               style={{
                 height: "200px",
                 width: "200px",
@@ -83,7 +83,7 @@ const Savings = () => {
 
           <article class="flex max-w-sm flex-col items-start mr-5">
             <div
-              className="border rounded-xl bg-green-200"
+              className="border rounded-xl bg-blue-200"
               style={{
                 height: "200px",
                 width: "200px",
@@ -104,7 +104,7 @@ const Savings = () => {
 
           <article class="flex max-w-sm flex-col items-start mr-5">
             <div
-              className="border rounded-xl bg-green-200"
+              className="border rounded-xl bg-pink-100"
               style={{
                 height: "200px",
                 width: "200px",

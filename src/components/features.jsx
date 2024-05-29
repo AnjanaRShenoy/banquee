@@ -30,13 +30,13 @@ const Features = () => {
                   Compare cards <span>&rarr;</span>
                 </button>
             </div>
-              <div className="flex flex-row gap-8 pt-7 pb-0 justify-center">
+              {/* <div className="flex flex-row gap-8 pt-7 pb-0 justify-center">
                 <div className="border rounded p-4 mb-4" style={{ height: "150px", width: "500px" }}>hi</div>
                 <div className="border rounded p-4 mb-4" style={{ height: "150px", width: "500px" }}>hi</div>
                 <div className="border rounded p-4 mb-4" style={{ height: "150px", width: "500px" }}>hi</div>
                 <div className="border rounded p-4 mb-4" style={{ height: "150px", width: "500px" }}>hi</div>
                 <div className="border rounded p-4 mb-4" style={{ height: "150px", width: "500px" }}>hi</div>
-              </div>
+              </div> */}
           </div>
               </div>
         </div>

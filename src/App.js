@@ -9,6 +9,11 @@ import Notifications from './components/notifications.jsx';
 import Cards from './components/cards.jsx';
 import Tools from './components/tools.jsx';
 import Footer from './components/footer.jsx';
+import Webflow from './components/webflow.jsx';
+import Testimonials from './components/testimonials.jsx';
+import Account from './components/account.jsx';
+import Help from './components/help.jsx';
+import AppStore from './components/appStore.jsx';
 
 function App() {
   return (
@@ -21,8 +26,13 @@ function App() {
       <Notifications/>
       <Cards/>
       <Tools/>
+      <Account/>
+      <Testimonials/>
+      <AppStore/>
+      <Help/>
       <Blog/>
       <Footer/>
+      <Webflow/>
     </div>
   );
 }

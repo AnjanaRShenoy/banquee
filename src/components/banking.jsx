@@ -117,7 +117,7 @@ const Banking = () => {
           </div>
           <div
             className="border-8 border-black rounded-xl p-4 mb-4 "
-            style={{ height: "725px", width: "400px", borderRadius: "30px" }}
+            style={{ height: "750px", width: "400px", borderRadius: "30px" }}
           >
             <div className="flex flex-row justify-between items-center">
               <p className="mt-4">Current balance</p>
@@ -127,10 +127,123 @@ const Banking = () => {
               </p>
             </div>
             <div
-              className="border-2 rounded-xl p-4 mb-4 mt-6 bg-gray-400 "
-              style={{ height: "250px", width: "350px", borderRadius: "30px" }}
+              className="flex flex-col justify-around items-center bg-gray-600 rounded-lg gap-6 mt-3"
+              style={{ height: "200px", width: "350px" }}
             >
-              <div>banquee.</div>
+              <div className="flex flex-row ">
+                <div className="text-white">banquee.</div>
+                <img
+                  style={{ height: "20px", width: "20px" }}
+                  src="https://cdn.vectorstock.com/i/500p/80/06/wifi-signal-icon-vector-30338006.jpg"
+                />
+              </div>
+              <div className="text-white">1234 5678 9000 0000</div>
+              <div className="flex flex-row gap-5">
+                <div className="text-white">John Doe</div>
+                <div className="text-white">09/28</div>
+              </div>
+            </div>
+
+            <div class="relative mt-8 flex items-center gap-x-4">
+              <img
+                src="https://cdn.vectorstock.com/i/500p/47/65/fast-send-money-transfer-funds-payment-icon-vector-31494765.jpg"
+                alt=""
+                class="h-10 w-10 rounded-full bg-gray-50"
+              />
+              <div class="text-sm leading-6">
+                <p class="font-semibold text-gray-900">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Send Money
+                  </a>
+                </p>
+              </div>
+              <img
+                src="https://cdn.vectorstock.com/i/500p/47/65/fast-send-money-transfer-funds-payment-icon-vector-31494765.jpg"
+                alt=""
+                class="h-10 w-10 rounded-full bg-gray-50"
+              />
+              <div class="text-sm leading-6">
+                <p class="font-semibold text-gray-900">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Receive Money
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-row justify-between m-4">
+                <div>Transactions</div>
+                <div>View all </div>
+            </div>
+
+            <div
+              style={{ height: "70px", width: "350px" }}
+              className="border rounded-md bg-white flex flex-row mb-3"
+            >
+              <div className="flex flex-row justify-between items-center w-full">
+                <img
+                  style={{ height: "65px", width: "65px" }}
+                  className="px-2 py-2 border-none rounded-xl"
+                  src="https://tse2.mm.bing.net/th?id=OIP.bBpje0aw3Afdv-izr3AV3wHaHa&pid=Api&P=0&h=180"
+                />
+                <div className="flex flex-col">
+                  <div className="mt-2 ml-1">Apple</div>
+                  <div className="ml-1 text-gray-600">Electronics</div>
+                </div>
+                <div className="ml-auto text-green-600 pr-4">-799€</div>
+              </div>
+            </div>
+            <div
+              style={{ height: "70px", width: "350px" }}
+              className="border rounded-md bg-white flex flex-row mb-3"
+            >
+              <div className="flex flex-row justify-between items-center w-full">
+                <img
+                  style={{ height: "65px", width: "65px" }}
+                  className="px-2 py-2 border-none rounded-xl"
+                  src="https://tse2.mm.bing.net/th?id=OIP.bBpje0aw3Afdv-izr3AV3wHaHa&pid=Api&P=0&h=180"
+                />
+                <div className="flex flex-col">
+                  <div className="mt-2 ml-1">Google Play Store</div>
+                  <div className="ml-1 text-gray-600">Apps</div>
+                </div>
+                <div className="ml-auto text-green-600 pr-4">-49€</div>
+              </div>
+            </div>
+            <div
+              style={{ height: "70px", width: "350px" }}
+              className="border rounded-md bg-white flex flex-row mb-3"
+            >
+              <div className="flex flex-row justify-between items-center w-full">
+                <img
+                  style={{ height: "65px", width: "65px" }}
+                  className="px-2 py-2 border-none rounded-xl"
+                  src="https://tse2.mm.bing.net/th?id=OIP.bBpje0aw3Afdv-izr3AV3wHaHa&pid=Api&P=0&h=180"
+                />
+                <div className="flex flex-col">
+                  <div className="mt-2 ml-1">Amazon</div>
+                  <div className="ml-1 text-gray-600">Shopping</div>
+                </div>
+                <div className="ml-auto text-green-600 pr-4">-59€</div>
+              </div>
+            </div>
+            <div
+              style={{ height: "70px", width: "350px" }}
+              className="border rounded-md bg-white flex flex-row mb-3"
+            >
+              <div className="flex flex-row justify-between items-center w-full">
+                <img
+                  style={{ height: "65px", width: "65px" }}
+                  className="px-2 py-2 border-none rounded-xl"
+                  src="https://tse2.mm.bing.net/th?id=OIP.bBpje0aw3Afdv-izr3AV3wHaHa&pid=Api&P=0&h=180"
+                />
+                <div className="flex flex-col">
+                  <div className="mt-2 ml-1">Twitter</div>
+                  <div className="ml-1 text-gray-600">Ads</div>
+                </div>
+                <div className="ml-auto text-green-600 pr-4">-9€</div>
+              </div>
             </div>
           </div>
         </div>
